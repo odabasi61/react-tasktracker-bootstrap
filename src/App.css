@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+
+.tasks-wrapper {
+  background-image: linear-gradient(180deg, #0093e9 0%, #80d0c7 100%);
+  width: 50%;
+  min-width: 360px;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.task {
+  background-image: linear-gradient(270deg, #b0adae 0%, #b5fffc 100%);
+  border-radius: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.done {
+  border-left: 1rem solid green;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.done h4,
+.done small {
+  text-decoration: line-through;
 }
