@@ -4,7 +4,7 @@ import { useState } from "react";
 const AddTask = ({ tasks, getTasks }) => {
   const [newTask, setNewTask] = useState("");
   const [taskDate, setTaskDate] = useState("");
-  console.log(tasks, getTasks);
+  // console.log(tasks, getTasks);
 
   const addTask = async (obj) => {
     const BASE_URL =
